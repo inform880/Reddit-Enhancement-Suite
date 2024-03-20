@@ -15,17 +15,6 @@ html.res-hide-body body {
 	}
 }
 
-.res-betteReddit-showTimestampPosts {
-	.thing.link time:not(.edited-timestamp)[title] {
-		font-size: 0;
-
-		&::after {
-			font-size: x-small;
-			content: attr(title);
-		}
-	}
-}
-
 .res-betteReddit-showTimestampComments {
 	.thing.comment time:not(.edited-timestamp)[title],
 	.thing.message time:not(.edited-timestamp)[title] {
